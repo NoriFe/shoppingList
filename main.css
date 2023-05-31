@@ -1,9 +1,29 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
 body {
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  background: url(./BG.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .container {
   width: 300px;
   margin: 20px auto; }
+  .container__box {
+    border-radius: 8px; }
+  .container__list {
+    font-weight: 300;
+    font-size: 25px; }
+  .container__button {
+    margin: 2px;
+    border-radius: 8px;
+    font-size: 22px; }
 
 h1 {
   text-align: center; }
@@ -16,17 +36,13 @@ input[type="text"] {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #8122c09d;
+  color: black;
   border: none;
   cursor: pointer; }
 
-ul {
-  list-style-type: none;
-  padding: 0; }
-
-li {
-  margin-bottom: 5px; }
-
-.selected {
-  background-color: #f2f2f2; }
+.title {
+  text-align: center;
+  color: black;
+  background: #ffffffa6;
+  border-radius: 8px; }

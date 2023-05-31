@@ -1,0 +1,24 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w main.scss main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriFe/shoppingList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoriFe/shoppingList/issues"
+  },
+  "homepage": "https://github.com/NoriFe/shoppingList#readme",
+  "devDependencies": {
+    "node-module": "^2.0.0"
+  }
+}

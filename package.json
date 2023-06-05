@@ -20,5 +20,9 @@
   "homepage": "https://github.com/NoriFe/shoppingList#readme",
   "devDependencies": {
     "node-module": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0"
   }
 }

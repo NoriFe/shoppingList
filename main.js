@@ -39,3 +39,22 @@ function printList() {
   printWindow.document.close();
   printWindow.print();
 }
+const express = require('express');
+const helmet = require('helmet');
+
+const app = express();
+
+// Add the helmet middleware to set security-related headers
+app.use(helmet({
+  permissionsPolicy: {
+    interestCohort: [],
+  },
+}));
+
+// Define your routes and other middleware
+
+// Start the server
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
